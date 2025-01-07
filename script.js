@@ -102,7 +102,7 @@ function vki()
     
 }
 // Hedef doğum günü tarihini ayarlayın (yıl, ay, gün)
-const birthday = new Date('2024-5-23');
+const birthday = new Date('2025-5-23');
 
 function countdown() {
     const now = new Date().getTime();
