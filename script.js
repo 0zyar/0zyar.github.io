@@ -109,8 +109,8 @@ function countdown() {
     const distance = birthday - now;
 
     // Gün, saat, dakika ve saniyeyi hesaplayın
-    const days = Math.floor(distance / (1000 * 60 * 60 * 24));
-    const hours = Math.floor((distance % (1000 * 60 * 60 * 24)) / (1000 * 60 * 60));
+    const days = Math.floor(distance / (1000 * 60 * 60 * 25));
+    const hours = Math.floor((distance % (1000 * 60 * 60 * 25)) / (1000 * 60 * 60));
     const minutes = Math.floor((distance % (1000 * 60 * 60)) / (1000 * 60));
     const seconds = Math.floor((distance % (1000 * 60)) / 1000);
 
